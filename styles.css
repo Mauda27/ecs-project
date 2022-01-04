@@ -1,18 +1,19 @@
-body{
-background-color:#EED3F7;
-}
+
 .background{
 background-color:#EED3F7;
 }
 .flex-row{
 display: flex;
+flex-direction: row;
+justify-content: space-between;
+word-wrap: normal;
+
+}
 
 .list {
 flex-direction: column-reverse;
 
 }
 .trueCenter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
     } 
